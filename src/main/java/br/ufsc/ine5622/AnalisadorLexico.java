@@ -13,7 +13,7 @@ import br.ufsc.ine5622.antlr.Lexica;
 public class AnalisadorLexico {
 
 	public static void main(String[] args) throws Exception {
-		List<File> exemplos = new UtilitarioDeArquivos().listar("src/main/resources/");
+		List<File> exemplos = new UtilitarioDeArquivos().listar("src/main/resources/exemplos");
 
 		for (File exemplo : exemplos) {
 			System.out.println(String.format("--- %s ---", exemplo));
