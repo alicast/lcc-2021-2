@@ -70,7 +70,7 @@ INT_CONSTANT : '0'..'9'+ ;
 
 FLOAT_CONSTANT : '0'..'9'+ '.' '0'..'9'+ ;
 
-TABULACAO : ' ' | '\t' | '\n' | '\r' ;
+TABULACAO : (' ' | '\t' | '\n' | '\r') -> skip ;
 
 STRING_CONSTANT : '"' ~('\n' | '\r')* '"' ;
 

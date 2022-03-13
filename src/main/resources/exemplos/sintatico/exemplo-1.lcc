@@ -1,0 +1,26 @@
+def funcao_1() {
+	int a;
+	a = 10;
+	string b;
+	b = "Ali e Gustavo";
+	float c;
+	c = 100.1;
+}
+
+def funcao_2(int a) {
+	int a;
+	a = 10;
+	string b;
+	b = "Ali e Gustavo";
+	float c;
+	c = 100.1;
+}
+
+def funcao_3(int a, string b) {
+	int a;
+	a = 10;
+	string b;
+	b = "Ali e Gustavo";
+	float c;
+	c = 100.1;
+}

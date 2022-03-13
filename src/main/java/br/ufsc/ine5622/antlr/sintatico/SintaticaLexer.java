@@ -1,5 +1,5 @@
-// Generated from src/main/resources/Lexica.g4 by ANTLR 4.9.3
-package br.ufsc.ine5622.antlr.lexico;
+// Generated from src/main/resources/Sintatica.g4 by ANTLR 4.9.3
+package br.ufsc.ine5622.antlr.sintatico;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -10,7 +10,7 @@ import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class Lexica extends Lexer {
+public class SintaticaLexer extends Lexer {
 	static { RuntimeMetaData.checkVersion("4.9.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -101,13 +101,13 @@ public class Lexica extends Lexer {
 	}
 
 
-	public Lexica(CharStream input) {
+	public SintaticaLexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@Override
-	public String getGrammarFileName() { return "Lexica.g4"; }
+	public String getGrammarFileName() { return "Sintatica.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }

@@ -1,0 +1,9 @@
+def funcao() {
+	int a;
+	float b;
+	string c;
+	int d[10];
+	string e[10][5];
+	break;
+	;
+}
