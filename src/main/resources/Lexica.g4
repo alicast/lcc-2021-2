@@ -1,5 +1,7 @@
-// Define a grammar called Hello
-grammar Lexica;
-r  : 'hello' ID ;         // match keyword hello followed by an identifier
-ID : [a-z]+ ;             // match lower-case identifiers
-WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
+lexer grammar Lexica;
+
+ALI : 'ali';
+
+GUSTAVO : 'gustavo';
+
+ESPACO : ' ';
