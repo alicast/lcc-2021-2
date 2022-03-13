@@ -5,7 +5,7 @@ public class GeradorDeAnalisadorLexico {
 	private static final String SAIDA_ANTLR = "src/main/java/br/ufsc/ine5622/antlr";
 
 	public static void main(String[] args) throws Exception {
-		new RemovedorRecursivoDePasta().remover(SAIDA_ANTLR);
+		new UtilitarioDeArquivos().removerRecursivamente(SAIDA_ANTLR);
 		org.antlr.v4.Tool.main(new String[] {
 				"-o", SAIDA_ANTLR,
 				"-lib", "src/main/resources",

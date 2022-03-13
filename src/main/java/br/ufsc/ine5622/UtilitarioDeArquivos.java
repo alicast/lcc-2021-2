@@ -1,10 +1,17 @@
 package br.ufsc.ine5622;
 
 import java.io.File;
+import java.util.Arrays;
+import java.util.List;
 
-public class RemovedorRecursivoDePasta {
+public class UtilitarioDeArquivos {
 
-	public void remover(String caminho) {
+	public List<File> listar(String caminho) {
+		File pasta = new File(caminho);
+		return Arrays.asList(pasta.listFiles());
+	}
+
+	public void removerRecursivamente(String caminho) {
 		File pasta = new File(caminho);
 		remover(pasta);
 	}
