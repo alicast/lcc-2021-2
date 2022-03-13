@@ -1,0 +1,10 @@
+def nome_funcao(int variavel_a1 , float variavel_b2)
+{
+	int 0identificador;
+	string teste_1 = "Um texto de teste com
+		quebra de linha";
+	string teste_2 = 'Um texto com aspas simples'
+	string teste_3 = "Um texto sem fechar as aspas
+	string teste_4 = Um texto sem aspas
+	return;
+}

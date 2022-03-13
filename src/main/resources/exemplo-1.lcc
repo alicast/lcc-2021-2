@@ -1,1 +1,9 @@
-ali gustavo errada gustavo
+def nome_funcao(int variavel_a1 , float variavel_b2)
+{
+	variavel_a1 = 10;
+	variavel_b2 = 10.0;
+	variavel_b4 = 10 + -3 * 2 / 4
+	string teste_1 = "Um texto de teste com símbolos especiais!";
+	string teste_2 = "Um texto de teste com tabulação (	), caracter de escape de quebra de linha (\n) e caracter de escape de parágrafo (\r)";
+	return;
+}
