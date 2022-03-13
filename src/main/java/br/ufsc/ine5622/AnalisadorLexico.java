@@ -8,15 +8,15 @@ import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.ConsoleErrorListener;
 import org.antlr.v4.runtime.Token;
 
-import br.ufsc.ine5622.antlr.Lexica;
+import br.ufsc.ine5622.antlr.lexico.Lexica;
 
 public class AnalisadorLexico {
 
 	public static void main(String[] args) throws Exception {
-		List<File> exemplos = new UtilitarioDeArquivos().listar("src/main/resources/exemplos");
+		List<File> exemplos = new UtilitarioDeArquivos().listar("src/main/resources/exemplos/lexico");
 
 		for (File exemplo : exemplos) {
-			System.out.println(String.format("--- %s ---", exemplo));
+			System.out.println(String.format("--- %s ---", exemplo.getName()));
 			CharStream charStream = CharStreams.fromFileName(exemplo.getAbsolutePath());
 			Lexica lexica = new Lexica(charStream);
 			lexica.removeErrorListeners();

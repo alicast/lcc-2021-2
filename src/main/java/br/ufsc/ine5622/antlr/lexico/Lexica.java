@@ -1,5 +1,5 @@
 // Generated from src/main/resources/Lexica.g4 by ANTLR 4.9.3
-package br.ufsc.ine5622.antlr;
+package br.ufsc.ine5622.antlr.lexico;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
